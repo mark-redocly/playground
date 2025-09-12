@@ -1,0 +1,49 @@
+openapi: 3.1.01234567
+info:
+  title: Another Spec2
+  description: API description in Markdown for another spec.
+  version: 1.0.0
+  x-metadata:
+    metadata-version: v1.0
+    api-type: REST
+    business-unit: Institutional Banking and Markets
+    category: System
+    visibility: Private
+    data-classification: Customer and Personal
+    technical-service-ci: CM1028111
+    service-domain-grouping: Market Operations
+    service-domain: Customer Billing
+    function: Write
+    internet-facing: 'N'
+    team: Team b
+    future-intent: Enhance
+    auth-type: mTLS
+    usage-metrics: 'Y'
+    depends-on-legacy-integration: 'N'
+    ownership: Internal
+servers:
+  - url: https://api.example.com/v1
+    description: Production server
+security:
+  - bearerAuth: []
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+paths:
+  /example:
+    get:
+      summary: Example endpoints1231231adada
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Hello World

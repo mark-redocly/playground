@@ -1,0 +1,23 @@
+openapi: 3.1.012
+info:
+  title: Petstore v1 API
+  description: API description in Markdown.
+  version: 1.0.0
+  x-metadata:
+    metadata-version: v1.0
+    api-type: REST
+    business-unit: Institutional Banking and Markets
+    category: System
+    visibility: Private
+    data-classification: Customer and Personal
+    technical-service-ci: CM1028111
+    service-domain-grouping: Market Operations
+    service-domain: Customer Billing
+    function: Write
+    internet-facing: 'N'
+    team: asdasdasd
+    future-intent: Enhance
+    auth-type: mTLS
+    usage-metrics: 'Y'
+    depends-on-legacy-integration: 'N'
+    ownership: Internal
