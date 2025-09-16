@@ -23,5 +23,7 @@ rules:
     assertions:
       pattern: /^([A-Z]{2,}|[A-Z][^A-Z]*)\b(\s+(?:[A-Z]{2,}|[^A-Z]*)\b)*$/ # Sentence case but allow acronyms
 
+reunite: 
+  ignoreLint: true
 ignore:
   - .github
